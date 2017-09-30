@@ -15,9 +15,12 @@
       <file leaf-file-name="generate_table_ivps.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/generate_table_ivps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="714">
+              <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+              <folding>
+                <element signature="e#401#482#0" expanded="false" />
+                <element signature="e#493#1978#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,9 +51,16 @@
     <findStrings>
       <find>cell</find>
       <find>merge</find>
+      <find>'$s' %</find>
+      <find>m2</find>
     </findStrings>
+    <replaceStrings>
+      <replace>3':'$s' % measure_units['m2'],\</replace>
+      <replace>m1</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -191,9 +201,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generate_table_ivps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="714">
+          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="e#401#482#0" expanded="false" />
+            <element signature="e#493#1978#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
